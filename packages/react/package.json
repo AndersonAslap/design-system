@@ -10,9 +10,10 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Anderson Aslap",
+  "license": "MIT",
   "devDependencies": {
+    "@ap-ui/ts-config": "*",
     "@ap-ui/tokens": "*",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
